@@ -27,7 +27,10 @@ def brute(N: int) -> int:
         counter += 1
         N//= 10
     return counter
-    
+
+import math
+def log_method(N: int)-> int:
+    return int(math.log10(N)+1)
 
 def divisible_digits(N: int) -> int:
     counter, n = 0, N
